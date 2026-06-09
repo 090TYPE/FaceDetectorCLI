@@ -1,0 +1,19 @@
+# Зависимости для Raspberry Pi (ARM, headless)
+# opencv-python-headless легче — без GUI-зависимостей, не тянет Qt/GTK.
+numpy>=1.24
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+onnxruntime>=1.16.0
+
+# Детекция рук опциональна и тяжела на Pi — раскомментируйте при необходимости:
+# mediapipe>=0.10.0
+#
+# Камера Raspberry Pi устанавливается системно (НЕ через pip):
+#   sudo apt install -y python3-picamera2
+#
+# ── Поворотная камера (--track), выберите ОДИН вариант под ваше железо ──────────
+# Pimoroni Pan-Tilt HAT:
+#   pip install pantilthat
+# Adafruit PCA9685 / ServoKit (серво по I2C):
+#   pip install adafruit-circuitpython-servokit
+# Обычные серво напрямую на GPIO — gpiozero уже есть в Raspberry Pi OS.
