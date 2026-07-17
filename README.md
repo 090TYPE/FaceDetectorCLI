@@ -1,4 +1,7 @@
 # Face Detector CLI
+
+[![CI](https://github.com/090TYPE/FaceDetectorCLI/actions/workflows/ci.yml/badge.svg)](https://github.com/090TYPE/FaceDetectorCLI/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 Данный детектор был реализован для камеры от сибиричка(БпЛА коптерного типа) поставленную на обычный распечатанный пьедестал на 3d принтере
 Если вдруг будет интересно как всё утроенно задавайте вопросы я отвечу
 Консольное приложение для **детекции лиц и людей** и анализа **возраста / пола / эмоций**
