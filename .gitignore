@@ -6,3 +6,6 @@ models_cv/
 snaps/
 *.pcapng
 .env
+
+# JetBrains IDE settings
+.idea/

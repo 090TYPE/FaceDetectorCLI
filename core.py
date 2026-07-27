@@ -1,3 +1,4 @@
+
 """
 Ядро анализа лиц — OpenCV DNN (детекция) + Caffe/ONNX (возраст/пол/эмоции).
 Без TensorFlow. Работает на ПК и на Raspberry Pi (ARM).
